@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Play, Info, Star, Calendar, Zap, Engine } from 'lucide-react';
+import { Play, Info, Star, Calendar, Zap, Settings } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const HeroSection = ({ featuredCars }) => {
