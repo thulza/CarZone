@@ -69,7 +69,7 @@ const HeroSection = ({ featuredCars }) => {
                 <span className="text-white text-sm font-medium">{currentCar.specs.horsepower}</span>
               </div>
               <div className="flex items-center space-x-2 bg-black/50 backdrop-blur-sm rounded-lg px-3 py-2">
-                <Engine className="h-4 w-4 text-red-400" />
+                <Settings className="h-4 w-4 text-red-400" />
                 <span className="text-white text-sm font-medium">{currentCar.specs.acceleration}</span>
               </div>
             </div>
