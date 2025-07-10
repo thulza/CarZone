@@ -26,13 +26,13 @@ const CarDetail = () => {
   }
 
   const specIcons = {
-    engine: Engine,
+    engine: Settings,
     horsepower: Zap,
     torque: Gauge,
     acceleration: Gauge,
     topSpeed: Gauge,
     transmission: Cog,
-    drivetrain: Drivetrain
+    drivetrain: Car
   };
 
   return (
