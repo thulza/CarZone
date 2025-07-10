@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, Star, Calendar, Zap, Engine, Gauge, Cog, Drivetrain, Heart, Share2 } from 'lucide-react';
+import { ArrowLeft, Star, Calendar, Zap, Settings, Gauge, Cog, Car, Heart, Share2 } from 'lucide-react';
 import { getCarById } from '../data/mockCars';
 
 const CarDetail = () => {
